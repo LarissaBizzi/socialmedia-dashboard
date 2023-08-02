@@ -17,7 +17,7 @@ export default function Header() {
     }
     return (
         <>
-            <header className='max-w-7xl mx-auto flex justify-between'>
+            <header className='relative z-10 max-w-7xl mt-auto flex items-center justify-between'>
                 <div>
                     <h1 className='font-bold text-2xl text-slate-800 dark:text-white'>Social Media Dashboard</h1>
                     <p className='font-bold text-slate-600 dark:text-slate-400'>Total Followers: 23.004</p>
@@ -28,7 +28,7 @@ export default function Header() {
                         className="font-bold text-slate-600 text-sm dark:text-slate-400 cursor-pointer">Dark Mode
                     </label>
                     <input type="checkbox" className="checkbox" id="checkbox" checked={!darkMode} onChange={toggleTheme} />
-                    <label for="checkbox" className="label">
+                    <label htmlFor="checkbox" className="label">
                         <div className="ball"></div>
                     </label>
                 </div>

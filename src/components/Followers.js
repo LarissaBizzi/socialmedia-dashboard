@@ -10,7 +10,7 @@ import down from '../images/icon-down.svg'
 export default function Followers() {
     return (
         <>
-            <section className='max-w-7xl mx-auto py-10 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4'>
+            <section className='relative z-10 max-w-7xl mx-auto py-10 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4'>
                 <article className='bg-slate-200 dark:bg-slate-800 p-5 rounded-lg shadow shadow-slate-50 dark:shadow-slate-700 border-t-8 border-blue-600'>
                     <ul className='flex items-center justify-center text-center'>
                         <li><Image src={facebook} alt='Facebook' className='mr-2' /></li>
